@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context=".Main2Activity">
+
+
+   <TableRow
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+
+           android:text="First Name"
+           android:textStyle="bold"
+           android:textColor="@android:color/holo_green_light"
+           android:textSize="25sp"
+           android:layout_width="wrap_content"
+           android:layout_marginTop="30dp"
+           android:layout_marginRight="50dp"
+           android:layout_column="1"
+           android:layout_height="wrap_content">
+       </TextView>
+       <EditText
+           android:textSize="20sp"
+           android:layout_marginTop="30dp"
+           android:layout_width="wrap_content"
+           android:hint="type Here"
+           android:padding="16dp"
+           android:layout_column="2"
+           android:layout_height="wrap_content">
+       </EditText>
+
+   </TableRow>
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Last Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_column="1"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:hint="type Here "
+            android:padding="16dp"
+            android:layout_column="2"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Birth Date"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_column="1"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:hint="type Here "
+            android:padding="16dp"
+            android:layout_column="2"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </TableRow>
+
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=" Create "
+       android:layout_marginTop="100sp"
+       android:textSize="30dp"
+       android:textColor="@android:color/holo_green_dark"
+       android:textStyle="bold"
+       />
+
+</TableLayout>
